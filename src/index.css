@@ -7,22 +7,24 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(12, 21, 34);
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 1.2rem;
 }
 
 h1 {
-  margin: 2rem;
+  text-align: center;
+  margin: 1rem;
+  color: rgb(54, 230, 215);
 }
 
 .board {
-  border: 0.7rem solid #ff652f;
-  background: #ff652f;
+  border: 0.7rem solid #2877c0;
+  background: #2877c0;
   width: 350px;
   height: 350px;
   display: grid;
