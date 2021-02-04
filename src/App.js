@@ -1,7 +1,8 @@
 import "./App.css";
+import Game from "./components/Game";
 
 function App() {
-  return <div className="App">Welcome to React</div>;
+  return <Game></Game>;
 }
 
 export default App;
